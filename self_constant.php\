@@ -1,0 +1,11 @@
+<?php
+
+class GREAT {
+    const GREAT_word = "This is a constant\n" ;
+    public function great(){
+        echo self :: GREAT_word ;
+    }
+}
+
+$w = new GREAT() ;
+$w -> great();
